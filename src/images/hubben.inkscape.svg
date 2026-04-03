@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="13.153574"
+   height="26.15"
+   viewBox="0 0 13.153574 26.15"
+   sodipodi:docname="hubben.inkscape.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="construct_grid"
+       id="path-effect1"
+       is_visible="false"
+       lpeversion="1"
+       nr_x="5"
+       nr_y="5" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="true"
+     inkscape:lockguides="true"
+     showguides="true"
+     inkscape:zoom="28.801924"
+     inkscape:cx="3.0727114"
+     inkscape:cy="11.856847"
+     inkscape:window-width="1904"
+     inkscape:window-height="1040"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g26">
+    <inkscape:grid
+       id="grid5"
+       units="px"
+       originx="-1.921426"
+       originy="0.075000004"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true"
+       snapvisiblegridlinesonly="false" />
+  </sodipodi:namedview>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g1"
+     style="display:inline"
+     transform="translate(-1.921426,0.075)">
+    <image
+       width="15.221183"
+       height="26.535595"
+       preserveAspectRatio="none"
+       xlink:href="../../../../Downloads/300px-Hubben-planritning-by-g%C3%B6ken-v1.png"
+       id="image1"
+       x="0"
+       y="0"
+       style="display:none;stroke-width:0.25;stroke-dasharray:none"
+       sodipodi:insensitive="true" />
+    <g
+       id="g25"
+       inkscape:label="rooms"
+       style="display:inline">
+      <path
+         id="rect26"
+         style="display:inline;fill:#4a4a4a"
+         inkscape:label="Studierummet"
+         d="M 9.500426,16 H 15 v 6 H 9.500426 Z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         d="M 2,0 V 4.9960937 H 7 7.00391 V 5 10.003906 H 7 V 16 21.998047 L 4,22 v 4 H 9.500426 V 22 16 H 15 V 5 H 9.500426 V 3 H 7 V 0 Z M 7,10.003906 V 5 H 2 V 4.99609 H 1.99609 v 5.007812 z"
+         style="display:inline;fill:#1098bc;fill-opacity:1"
+         id="path24"
+         inkscape:label="Storhubben"
+         sodipodi:nodetypes="cccccccccccccccccccccccccccc" />
+      <path
+         d="M 10,0 7,0.01757813 V 3 H 9.500426 V 5 H 15 V 0 Z"
+         style="display:inline;fill:#e28413;fill-opacity:1;paint-order:normal"
+         id="path25"
+         inkscape:label="Grupprummet"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         id="rect25"
+         style="display:inline;fill:#ac2e4d;fill-opacity:1;stroke-width:0.999999"
+         inkscape:label="CTC"
+         d="M 9.500426,22 H 15 v 4 H 9.500426 Z" />
+    </g>
+    <g
+       id="g26"
+       inkscape:label="outline"
+       style="stroke-width:0.15;stroke-dasharray:none;stroke:#000000;stroke-opacity:1">
+      <rect
+         style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.15;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         id="rect4"
+         width="5"
+         height="5"
+         x="2"
+         y="0" />
+      <rect
+         style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.15;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         id="rect5"
+         width="2.5004261"
+         height="2"
+         x="7"
+         y="3" />
+      <path
+         d="M 10,0 7,0.01757813 V 3 H 9.500426 V 5 H 15 V 0 Z"
+         style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.15;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         id="path17"
+         sodipodi:nodetypes="cccccccc" />
+      <rect
+         style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.15;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         id="rect8"
+         width="5.4995742"
+         height="6"
+         x="9.5004263"
+         y="16" />
+      <rect
+         style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.15;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         id="rect11"
+         width="5.4995737"
+         height="4"
+         x="9.5004263"
+         y="22" />
+      <path
+         d="m 7,5 v 11 5.998047 L 4,22 l -10e-8,4 5.5004261,0 V 22 16 H 15 V 5 Z"
+         style="display:inline;fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.15;stroke-dasharray:none;stroke-opacity:1"
+         id="path19"
+         sodipodi:nodetypes="ccccccccccc" />
+      <path
+         d="m 6.0004261,26 -1e-7,-1 H 7 l -1e-7,-1.5 H 4"
+         style="display:inline;fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.15;stroke-dasharray:none;stroke-opacity:1"
+         id="path23"
+         sodipodi:nodetypes="ccccc" />
+      <rect
+         style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.15;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         id="rect17"
+         width="5.0071483"
+         height="5.0071478"
+         x="1.996426"
+         y="4.9964261" />
+      <path
+         style="display:inline;fill:#4a4a4a;fill-opacity:1;stroke-width:0.15;paint-order:normal"
+         d="M 15,7.4999999 9.421426,7.51"
+         id="path26"
+         sodipodi:nodetypes="cc" />
+    </g>
+  </g>
+</svg>
