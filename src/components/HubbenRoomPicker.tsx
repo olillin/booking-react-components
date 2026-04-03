@@ -6,37 +6,49 @@ export interface HubbenRoomSelection {
     ctc: boolean
 }
 
+const EMPTY_SELECTION: HubbenRoomSelection = {
+    storhubben: false,
+    grupprummet: false,
+    ctc: false,
+}
+
 interface HubbenRoomPickerProps {
     onChange?: (value: HubbenRoomSelection) => void
 }
 
 export default function HubbenRoomPicker({ onChange }: HubbenRoomPickerProps) {
-    const [storhubbenSelected, setStorhubbenSelected] = useState(false)
-    const [grupprummetSelected, setGrupprummetSelected] = useState(false)
-    const [ctcSelected, setCtcSelected] = useState(false)
+    const [selected, setSelected] =
+        useState<HubbenRoomSelection>(EMPTY_SELECTION)
 
     const toggleStorhubben = () => {
-        setStorhubbenSelected(!storhubbenSelected)
+        setSelected({
+            ...selected,
+            storhubben: !selected.storhubben,
+        })
     }
-    const toggleGrupprummet = () => setGrupprummetSelected(!grupprummetSelected)
-    const toggleCtc = () => setCtcSelected(!ctcSelected)
-
-    const selection: HubbenRoomSelection = {
-        storhubben: storhubbenSelected,
-        grupprummet: grupprummetSelected,
-        ctc: ctcSelected,
+    const toggleGrupprummet = () => {
+        setSelected({
+            ...selected,
+            grupprummet: !selected.grupprummet,
+        })
+    }
+    const toggleCtc = () => {
+        setSelected({
+            ...selected,
+            ctc: !selected.ctc,
+        })
     }
 
     useEffect(() => {
         if (onChange) {
-            onChange(selection)
+            onChange(selected)
         }
-    }, [storhubbenSelected, grupprummetSelected, ctcSelected])
+    }, [selected, onChange])
 
     return (
         <div className="hubben-room-picker">
             <HubbenRender
-                selection={selection}
+                selected={selected}
                 onClickStorhubben={toggleStorhubben}
                 onClickGrupprummet={toggleGrupprummet}
                 onClickCtc={toggleCtc}
@@ -50,7 +62,7 @@ export default function HubbenRoomPicker({ onChange }: HubbenRoomPickerProps) {
                 <input
                     type="checkbox"
                     name="selectStorhubben"
-                    checked={storhubbenSelected}
+                    checked={selected.storhubben}
                     readOnly
                     onClick={toggleStorhubben}
                 />
@@ -59,7 +71,7 @@ export default function HubbenRoomPicker({ onChange }: HubbenRoomPickerProps) {
                 <input
                     type="checkbox"
                     name="selectGrupprummet"
-                    checked={grupprummetSelected}
+                    checked={selected.grupprummet}
                     readOnly
                     onClick={toggleGrupprummet}
                 />
@@ -68,7 +80,7 @@ export default function HubbenRoomPicker({ onChange }: HubbenRoomPickerProps) {
                 <input
                     type="checkbox"
                     name="selectCtc"
-                    checked={ctcSelected}
+                    checked={selected.ctc}
                     readOnly
                     onClick={toggleCtc}
                 />
@@ -78,16 +90,16 @@ export default function HubbenRoomPicker({ onChange }: HubbenRoomPickerProps) {
 }
 
 interface HubbenRenderProps {
-    selection: HubbenRoomSelection
+    selected: HubbenRoomSelection
     onClickStorhubben: () => void
     onClickGrupprummet: () => void
     onClickCtc: () => void
     onClickStudierummet: () => void
 }
 
-/** Inlined and cleaned up version of hubben.svg as tsx. */
+/** Inlined and heavily modified version of hubben.svg in TSX. */
 function HubbenRender({
-    selection,
+    selected,
     onClickStorhubben,
     onClickGrupprummet,
     onClickCtc,
@@ -123,7 +135,7 @@ function HubbenRender({
                 d="M 2,0 V 4.9960937 H 7 7.00391 V 5 10.003906 H 7 V 16 21.998047 L 4,22 v 4 H 9.500426 V 22 16 H 15 V 5 H 9.500426 V 3 H 7 V 0 Z M 7,10.003906 V 5 H 2 V 4.99609 H 1.99609 v 5.007812 z"
                 style={{
                     display: 'inline',
-                    fill: selection.storhubben
+                    fill: selected.storhubben
                         ? theme.storhubben
                         : theme.unselected,
                 }}
@@ -133,7 +145,7 @@ function HubbenRender({
                 d="M 10,0 7,0.01757813 V 3 H 9.500426 V 5 H 15 V 0 Z"
                 style={{
                     display: 'inline',
-                    fill: selection.grupprummet
+                    fill: selected.grupprummet
                         ? theme.grupprummet
                         : theme.unselected,
                 }}
@@ -142,7 +154,7 @@ function HubbenRender({
             <path
                 style={{
                     display: 'inline',
-                    fill: selection.ctc ? theme.ctc : theme.unselected,
+                    fill: selected.ctc ? theme.ctc : theme.unselected,
                 }}
                 d="M 9.500426,22 H 15 v 4 H 9.500426 Z"
                 onClick={onClickCtc}
