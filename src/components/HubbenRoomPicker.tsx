@@ -6,19 +6,24 @@ export interface HubbenRoomSelection {
     ctc: boolean
 }
 
-const EMPTY_SELECTION: HubbenRoomSelection = {
+export const EMPTY_SELECTION: HubbenRoomSelection = {
     storhubben: false,
     grupprummet: false,
     ctc: false,
 }
 
-interface HubbenRoomPickerProps {
+export interface HubbenRoomPickerProps {
+    initialValue?: HubbenRoomSelection
     onChange?: (value: HubbenRoomSelection) => void
 }
 
-export default function HubbenRoomPicker({ onChange }: HubbenRoomPickerProps) {
-    const [selected, setSelected] =
-        useState<HubbenRoomSelection>(EMPTY_SELECTION)
+export default function HubbenRoomPicker({
+    initialValue,
+    onChange,
+}: HubbenRoomPickerProps) {
+    const [selected, setSelected] = useState<HubbenRoomSelection>(
+        initialValue ?? EMPTY_SELECTION
+    )
 
     const toggleStorhubben = () => {
         setSelected({

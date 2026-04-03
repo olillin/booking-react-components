@@ -1,4 +1,6 @@
 {
+    "include": ["src/**/*"],
+    "exclude": ["demo/**/*"],
     "compilerOptions": {
         "rootDir": "./src",
         "outDir": "./dist",

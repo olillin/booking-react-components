@@ -36,7 +36,9 @@
         "**/.env*.local",
         "**/.env",
         "**/.vercel",
-        "**/*.tsbuildinfo"
+        "**/*.tsbuildinfo",
+        "entry.server.tsx",
+        "entry.client.tsx"
     ],
     "rules": {
         "@typescript-eslint/ban-ts-comment": "error",
