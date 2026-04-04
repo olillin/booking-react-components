@@ -1,11 +1,11 @@
 {
-    "include": ["src/**/*"],
-    "exclude": ["demo/**/*"],
+    "include": ["src"],
     "compilerOptions": {
         "rootDir": "./src",
         "outDir": "./dist",
-        "module": "nodenext",
-        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "target": "es6",
         "types": [],
         "lib": ["esnext"],
         "types": ["node"],

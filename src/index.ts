@@ -1,1 +1,1 @@
-export { default as HubbenRoomPicker } from './components/HubbenRoomPicker.js'
+export * from './components'
