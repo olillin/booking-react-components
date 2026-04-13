@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="200cm"
+   height="100cm"
+   viewBox="0 0 2000 1000"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="cloud.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="cm"
+     inkscape:zoom="0.10133641"
+     inkscape:cx="2388.0853"
+     inkscape:cy="1924.2836"
+     inkscape:window-width="1707"
+     inkscape:window-height="1067"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect1"
+       style="display:inline;fill:#418d4b;stroke-width:8"
+       inkscape:label="cloud"
+       d="M 54.999743 65.000166 L 54.999743 934.99977 L 925.00503 934.99977 L 945.00019 934.99977 L 1675.0001 934.99977 L 1675.0001 544.9998 L 945.00019 544.9998 L 945.00019 65.000166 L 54.999743 65.000166 z " />
+    <path
+       id="path1"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:8;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:label="storage"
+       d="M 944.99999,545 1675,545 v 390 l -730.00001,-10e-6"
+       sodipodi:nodetypes="cccc" />
+    <path
+       id="rect2"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:8"
+       d="M 585,934.99999 H 55.000001 v -35 m 0,-229.99999 v -35 m 0,-230 V 305 m 0,-229.999997 v -10 H 670 m 134.99999,-2e-6 h 140 V 660 m 0,134.99999 v 140 h -225"
+       sodipodi:nodetypes="cccccccccccccccc"
+       inkscape:label="main walls" />
+    <path
+       d="m 652.06981,844.93059 -28.95333,28.95334 7.01372,7.01348 15.06057,-15.06056 v 43.9773 h 13.56321 v -44.21708 l 15.30058,15.30059 7.01348,-7.01373 -28.95333,-28.95334 -0.0226,0.0223 z"
+       style="display:inline;fill:#000000;fill-opacity:0.194695;stroke-width:2.183;stroke-dasharray:none"
+       id="path4"
+       inkscape:label="arrow" />
+  </g>
+</svg>
